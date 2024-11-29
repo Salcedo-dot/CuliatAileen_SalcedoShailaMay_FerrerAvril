@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: black; /*kulay sa taas*/
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img{
+  background: url('assets/image/ped.jpeg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 60px;
+  width: 180px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: none;
+  color: white;
+  
+}
+.btns button:last-child:hover
+{
+background: white;
+color: black;
+} 
+.hero-section {
+  height: 100vh;
+ 
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+}
+
+.hero-section .content h2 {
+  font-size: 3rem;
+  max-width: 900px;
+  line-height: 70px;
+}
+.hero-section .content p {
+  font-weight: 300;
+  max-width: 900px;
+  margin-top: 15px;
+}
+img {
+  float: right;
+  height: 20%;
+  width: 20%;
+  
+}
+.footer {
+  background-color: #f8f9fa; /* Light grey background */
+  color: #333; /* Dark text */
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd; /* Optional border */
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: #007bff; /* Blue links */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #f8f9fa; /* Light grey background */
+  color: #333; /* Dark text */
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd; /* Optional border */
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: #007bff; /* Blue links */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
